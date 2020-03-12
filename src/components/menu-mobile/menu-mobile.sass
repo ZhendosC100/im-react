@@ -1,0 +1,38 @@
+@import '../../sass/_colors'
+@import '../../sass/_fonts'
+
+//menu mobile
+.menu_mobile
+    position: fixed
+    top: 0
+    left: 0
+    width: 100%
+    height: 100vh
+    background-color: rgba(255, 255, 255, .9)
+    z-index: 8
+    >ul
+        margin: 70px auto
+        padding: 0
+        width: 50%
+        text-align: center
+        list-style: none
+        >li
+            margin: 20px 0
+            font-size: 26px
+            font-family: "Inter-ExtraLight-BETA"
+            >a
+                text-decoration: none
+                color: $text_color
+                cursor: default
+                &:hover
+                    color: #0028FF
+.close
+    position: absolute
+    top: 30px
+    right: 30px
+    color: $text_color
+    border: none
+    background-color: rgba(255, 255, 255, 0)
+    outline: none
+    &:hover
+        color: #0028FF

@@ -1,0 +1,117 @@
+@import '../../sass/_colors'
+@import '../../sass/_fonts'
+
+footer
+    background-color: $bg_color
+
+.footer_container
+    width: 304px
+    margin-bottom: 70px
+    padding-top: 70px
+    text-align: center
+    >button
+        width: 167px
+        height: 40px
+        border: 2px solid $blue_bg_color
+        font-weight: 900
+        font-size: 13px
+        line-height: 24px
+        letter-spacing: -0.2px
+        background-color: $bg_color
+        color: $blue_bg_color
+
+.help
+    margin: 0 auto
+    width: 262px
+    font-size: 36px
+    line-height: 44px
+    text-align: center
+    letter-spacing: -1px
+    color: $title_color
+    >span
+        color: $blue_bg_color
+
+.more
+    margin: 0 auto
+    width: 301px
+    font-size: 36px
+    line-height: 44px
+    text-align: center
+    letter-spacing: -1px
+    color: #6D7880
+    
+
+.type
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: column
+    margin: 24px auto
+    padding-top: 5px
+    background-color: $blue_bg_color
+    
+    &_text
+        margin-top: 14px
+        font-size: 13px
+        line-height: 24px
+        letter-spacing: -0.2px
+        color: #ffffff
+
+.hire_web_dev
+    width: 100%
+    padding: 40px 0 50px
+    background-color: $blue_bg_color
+    >h3, p
+        width: 304px
+        color: #ffffff
+    >h3
+        margin: 0 auto
+        font-size: 36px
+        line-height: 48px
+        letter-spacing: -1px
+
+.look_for
+    margin: 0 auto
+    font-size: 24px
+    line-height: 36px
+    letter-spacing: -0.7px
+
+.hire_text
+    margin: 30px auto
+
+// ---------media (min-width: 576px)--------- //
+@media (min-width: 576px)
+    footer
+        display: flex
+        flex-direction: column-reverse
+    .footer_container, .help
+        width: 70%
+
+    .help
+        display: inline
+        text-align: initial
+    .more
+        display: inline-block
+        margin-bottom: 10px
+        width: 100%
+        text-align: initial
+    .type
+        width: 272px
+        height: 120px
+        &_box
+            display: flex
+            justify-content: space-between
+            flex-wrap: wrap
+    .hire_web_dev
+        >h3, p
+            width: 70%
+
+// ---------media (min-width: 1150px)--------- //
+@media (min-width: 1150px)
+    .hire_web_dev
+        >h3, p
+            width: 63%
+    .footer_container, .help
+        width: 63%
+    .type
+        margin: 20px 0

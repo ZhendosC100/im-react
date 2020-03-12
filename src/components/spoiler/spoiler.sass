@@ -1,0 +1,61 @@
+@import '../../sass/_colors'
+@import '../../sass/_fonts'
+.spoiler
+    &_container
+        position: relative
+        margin: 0 auto
+        padding: 1px 0 80px 0
+        // height: 570px
+        text-align: center
+        background-color: $bg_color
+    &_title
+        display: none
+    &_title, &_title_mobile
+        margin: 0 auto
+        width: 304px
+        margin-top: 72px
+        font-family: "Inter-Medium"
+        font-size: 36px
+        line-height: 48px
+        letter-spacing: -1px    
+        color: $title_color
+    &_question
+        margin: 20px auto
+        width: 304px
+        font-family: "Inter-Medium"
+        font-size: 24px
+        line-height: 36px
+        letter-spacing: -0.7px
+
+.apostrophe
+    display: none
+
+.apostrophe,
+.apostrophe_mobile
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    width: 150px
+    height: 225px
+
+// ---------media (min-width: 476px)--------- //
+@media (min-width: 476px)
+    .spoiler
+        &_title_mobile
+            display: none
+        &_title, 
+        &_question
+            display: block
+            width: 70%
+
+// ---------media (min-width: 991px)--------- //
+@media (min-width: 991px)
+    .spoiler
+        &_title, 
+        &_question
+            width: 90%
+    .apostrophe
+        display: block
+        &_mobile
+            display: none

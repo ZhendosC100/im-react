@@ -1,0 +1,117 @@
+@import '../../sass/_colors'
+@import '../../sass/_fonts'
+
+.header
+    display: flex
+    justify-content: center
+    align-items: center
+    height: 120px
+    &_container
+        display: flex
+        justify-content: space-between
+        padding: 0 50px
+.menu_box
+    &_mobile
+        width: 32px
+        height: 32px
+        background: url(../../assets/icon_hamburger_menu.svg)
+        background-repeat: no-repeat
+        background-position: 50% 50%
+        &:hover
+            background: url(../../assets/icon_hamburger_menu_hover.svg)
+            background-repeat: no-repeat
+            background-position: 50% 50%
+    &_desctop
+        display: none
+
+// //menu mobile
+// .menu_mobile
+//     display: none
+//     position: fixed
+//     top: 0
+//     left: 0
+//     width: 100%
+//     height: 100vh
+//     background-color: rgba(255, 255, 255, .9)
+//     z-index: 8
+//     >ul
+//         margin: 70px auto
+//         padding: 0
+//         width: 50%
+//         text-align: center
+//         list-style: none
+//         >li
+//             margin: 20px 0
+//             font-size: 26px
+//             font-family: "Inter-ExtraLight-BETA"
+//             >a
+//                 text-decoration: none
+//                 color: $text_color
+//                 cursor: default
+//                 &:hover
+//                     color: #0028FF
+// .close
+//     position: absolute
+//     top: 30px
+//     right: 30px
+//     color: $text_color
+//     border: none
+//     background-color: rgba(255, 255, 255, 0)
+//     outline: none
+//     &:hover
+//         color: #0028FF
+
+// ---------media (min-width: 476px)--------- //
+@media (min-width: 476px)
+    .header_container
+        width: 415px
+
+// ---------media (min-width: 615px)--------- //
+@media (min-width: 615px)
+    .header_container
+        width: 80%
+
+// ---------media (min-width: 991px)--------- //
+@media (min-width: 991px)
+    .header_container
+        width: 85%
+    .menu_box
+        &_mobile
+            display: none
+        &_desctop
+            display: flex
+            >ul
+                display: flex
+                justify-content: space-around
+                list-style: none
+                >li
+                    width: 80px
+                    height: 25px
+                    border-radius: 2px
+                    text-align: center
+                    &:hover
+                        background-color: $blue_bg_color
+                    &:hover >a
+                        color: #ffffff
+                    >a
+                        text-decoration: none
+                        font-family: "Inter-Bold"
+                        font-size: 13px
+                        line-height: 24px
+                        letter-spacing: -0.2px
+                        color: #26324C
+                        
+// ---------media (min-width: 1140px)--------- //
+@media (min-width: 1140px)
+    .header_container
+        width: 90%
+    .menu_box
+        &_desctop
+            display: flex
+            >ul
+                width: 700px
+
+
+
+        
+    

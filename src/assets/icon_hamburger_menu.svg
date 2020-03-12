@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="14px" viewBox="0 0 18 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>ICONS / hamburger-menu</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M16,25 C16.4142136,25 16.75,24.6564991 16.75,24.249479 L16.75,7.75052097 C16.75,7.33601969 16.4171014,7 16,7 L16,7 C15.5857864,7 15.25,7.34350085 15.25,7.75052097 L15.25,24.249479 C15.25,24.6639803 15.5828986,25 16,25 L16,25 Z M10,25 C10.4142136,25 10.75,24.6564991 10.75,24.249479 L10.75,7.75052097 C10.75,7.33601969 10.4171014,7 10,7 L10,7 C9.58578644,7 9.25,7.34350085 9.25,7.75052097 L9.25,24.249479 C9.25,24.6639803 9.58289862,25 10,25 L10,25 Z M21.25,24.249479 C21.25,24.6639803 21.5828986,25 22,25 L22,25 C22.4142136,25 22.75,24.6564991 22.75,24.249479 L22.75,7.75052097 C22.75,7.33601969 22.4171014,7 22,7 L22,7 C21.5857864,7 21.25,7.34350085 21.25,7.75052097 L21.25,24.249479 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="MODULE-/-NAVIGATION-/-NAV-DEFAULT-/-Mobile" transform="translate(-315.000000, -53.000000)">
+            <g id="ICONS-/-hamburger-menu" transform="translate(308.000000, 44.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Shape" fill="#1B1D24" fill-rule="nonzero" transform="translate(16.000000, 16.000000) rotate(90.000000) translate(-16.000000, -16.000000) " xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

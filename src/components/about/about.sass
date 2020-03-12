@@ -1,0 +1,111 @@
+@import '../../sass/_colors'
+@import '../../sass/_fonts'
+
+.about
+    &_container
+        display: flex
+        justify-content: center
+        flex-direction: column
+        padding: 100px 0
+        font-family: "Inter-Medium"
+    &__wrapper_text
+        width: 304px
+        margin: 0 auto
+    &_text
+        font-size: 24px
+        line-height: 36px
+        letter-spacing: -0.7px
+        color: #52636F
+    &_challenge
+        margin-bottom: 30px
+        &__title
+            margin: 120px auto 40px
+            font-size: 36px
+            line-height: 48px
+            letter-spacing: -1px
+            color: $title_color
+        >p, >ul>li
+            font-size: 18px
+            line-height: 32px
+            letter-spacing: -0.3px
+            color: #52636F
+        &__text
+            margin-bottom: 30px
+        >ul
+            padding: 0
+            list-style: none
+    &__wrapper_client
+        margin: 0 auto
+        width: 304px
+        >span
+            display: block
+            font-weight: bold
+            font-size: 10px
+            text-transform: uppercase
+            color: #6C869A
+        >a 
+            font-size: 15px
+            line-height: 24px
+            letter-spacing: -0.2px
+            color: $blue_bg_color
+
+.icons
+    display: flex
+    justify-content: center
+    align-items: center
+    margin: 12px
+    width: 40px
+    height: 40px
+    border-radius: 50%
+    box-shadow: 0px 0px 24px rgba(38, 51, 77, 0.08), 2px 2px 6px rgba(38, 50, 76, 0.04)
+
+.client_title
+    margin: 10px 0
+.client_country
+    margin: 8px 0 44px 0
+    font-size: 18px
+    line-height: 32px
+    letter-spacing: -0.3px
+    color: #52636F
+
+.time
+    margin: 10px 0 30px 0
+.scope
+    margin-bottom: 4px
+
+.links-mobile
+    display: none
+
+// ---------media (min-width: 476px)--------- //
+@media (min-width: 476px)
+    .about
+        &__wrapper_text,
+        &__wrapper_client
+            width: 70%
+
+// ---------media (min-width: 991px)--------- //
+@media (min-width: 991px)
+    .links-mobile
+        display: flex
+        flex-direction: column
+        justify-content: flex-start
+        align-items: center
+        width: 15%
+    .about
+        &_container
+            flex-direction: row
+            padding: 100px 30px 100px 0
+        &__wrapper_client
+            width: 15%
+            text-align: end
+        &_text
+            margin-top: 0
+
+// ---------media (min-width: 1150px)--------- //
+@media (min-width: 1150px)
+    .about
+        &__wrapper_text
+            width: 63%
+        
+
+

@@ -1,0 +1,51 @@
+.slider
+    &__img
+        width: 100%
+    &_box
+        position: relative
+        padding: 0 0 120px 0
+
+.arrows
+    &__wrapper
+        display: flex
+        justify-content: space-between
+        margin: auto
+        margin-top: 38px
+        margin-bottom: 42px
+        width: 80px
+    &__left, &__right
+        position: absolute
+        bottom: -40px
+        width: 20px
+        height: 14px
+    &__left
+        left: 40%
+    &__right
+        right: 40%
+    
+// ------- media (min-width: 476) -------//
+@media (min-width: 476px)
+    .slider
+        &__item
+            margin: 0 3px
+
+// ------- media (min-width 993) -------//
+@media (min-width: 993px)
+    .slider
+        &__item
+            margin: 0 80px
+        &_wrapper
+            width: 100%
+            margin: auto
+        &__img
+            height: 280px
+            width: 572px
+    .arrows
+        &__left
+            left: 46%
+        &__right
+            right: 46%
+        &__left:hover, 
+        &__right:hover
+            opacity: 0.3
+    

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="9px" height="17px" viewBox="0 0 9 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>icon_social_facebook</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M17.7230802,24.979189 L17.7230802,17.2340377 L20.3228458,17.2340377 L20.7123748,14.2159511 L17.7230802,14.2159511 L17.7230802,12.2885159 C17.7230802,11.4146872 17.9660591,10.8192416 19.2190895,10.8192416 L20.8175204,10.8186968 L20.8175204,8.11876226 C20.5407642,8.08226193 19.5922746,8 18.4885183,8 C16.1840319,8 14.6063032,9.40662451 14.6063032,11.9899759 L14.6063032,14.2159511 L12,14.2159511 L12,17.2340377 L14.6063032,17.2340377 L14.6063032,24.979189 L17.7230802,24.979189 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="MODULE-/-CASE-STUDY-/-SOCIAL-MEDIA-Desktop" transform="translate(-20.000000, -16.000000)">
+            <g id="Share-social-media">
+                <g id="ICONS-/-_social-/-facebook" transform="translate(8.000000, 8.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Facebook" fill="#1B1D24" fill-rule="nonzero" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
